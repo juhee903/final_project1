@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from my_pages import home, monitoring, prediction, email  # email 페이지 추가
 
+if "page" not in st.session_state:
+    st.session_state["page"] = "default"  # 또는 "email", "monitoring" 등 시작 페이지 이름
 # 페이지 설정
 st.set_page_config(page_title="IoT 장비 모니터링 대시보드", layout="wide")
 
