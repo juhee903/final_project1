@@ -65,7 +65,7 @@ parso==0.8.4
 patsy==1.0.1
 pillow==11.1.0
 platformdirs==4.3.6
-plotly==6.0.0
+plotly
 prompt_toolkit==3.0.48
 prophet==1.1.6
 protobuf==5.29.3
@@ -109,4 +109,3 @@ watchdog==6.0.0
 wcwidth==0.2.13
 xgboost==2.1.4
 zipp==3.21.0
-plotly==5.19.0
