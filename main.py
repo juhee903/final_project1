@@ -15,7 +15,7 @@ st.markdown("""
 # 데이터 로드 함수
 @st.cache_data
 def load_default_data():
-    df = pd.read_csv("C:/Users/문주희/Documents/내배캠/merge_data.csv")
+    df = pd.read_csv("merge_data.csv")
     df['machine_id'] = df['machine_id'].abs()  # machine_id의 부호를 절대값으로 변경
     return df
 
